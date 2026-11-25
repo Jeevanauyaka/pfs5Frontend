@@ -4,7 +4,7 @@ import { useParams } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 import api from "../services/api";
 
-function EditProduct() {
+function Edit() {
 
  const { id } = useParams();
 
@@ -91,4 +91,4 @@ function EditProduct() {
  );
 }
 
-export default EditProduct;
+export default Edit;

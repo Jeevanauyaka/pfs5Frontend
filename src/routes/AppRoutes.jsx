@@ -5,12 +5,13 @@ import Home from "../Pages/Home";
 import Products from "../Pages/Products";
 import ProductDetails from "../Pages/ProductDetails";
 import AddProduct from "../Pages/AddProduct";
-import EditProduct from "../pages/EditProduct";
+// import EditProduct from "../pages/EditProduct";
 import Register from "../Pages/Register";
 import Login from "../Pages/Login";
 import Logout from "../Pages/Logout";
 import ProtectedRoute from "./ProtectedRoute";
 import Wishlist from "../Pages/wishlist";
+import Edit from "../Pages/Edit";
 
 
 function AppRoutes() {
@@ -34,7 +35,7 @@ function AppRoutes() {
       />
  <Route
  path="/edit-product/:id"
- element={<EditProduct />}
+ element={<Edit />}
 />
 
 <Route
